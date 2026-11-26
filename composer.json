@@ -1,0 +1,19 @@
+{
+  "name": "voight-trace/sdk-php",
+  "description": "Official Voight Trace telemetry collector SDK for PHP applications (vanilla PHP, Laravel, Symfony, WordPress).",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.0",
+    "ext-json": "*"
+  },
+  "suggest": {
+    "ext-curl": "Recommended for fast non-blocking HTTP dispatch"
+  },
+  "autoload": {
+    "psr-4": {
+      "VoightTrace\\": "src/"
+    }
+  },
+  "minimum-stability": "stable"
+}
